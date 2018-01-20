@@ -1,0 +1,68 @@
+body{
+  font-family:Times New Roman;
+  background-color:offwhite;
+  font-size : 15px ;
+  background-image:url("data:image/jpeg;base64");
+}
+h1 {
+  font-family:Lobster;
+}
+.thick-green-border {
+  border-color:green;
+  border-width:10px;
+  border-style:solid;
+  border-radius:20px;
+}
+#fa {
+  font-size:25px;
+}
+#Austin{
+  color:black;
+  text-align: left;
+  margin: 10px;
+  margin-left:30px;
+}
+
+#info-1,#info-2,#info-3{
+  border-radius:5px;
+  padding:10px;
+  width:40%;
+}
+.flex-container{
+  display:flex;
+  flex-wrap:wrap;
+}
+
+#info-1{
+  position:relative;
+  margin-left:45px;
+  margin-right:45px;
+  background-color:teal;
+  font-weight:bold;
+  order:;
+  margin-bottom:20px;
+  
+}
+#info-2{
+  
+  position:relative;
+  margin-left:10px;
+  margin-right:10px;
+  background-color:lime;
+}
+#info-3{
+  position:relative;
+  margin-left:45px;
+  margin-right:45px;
+  background-color:aqua;
+}
+.wrapper{
+  max-width:700px;
+  margin: auto;
+  border-style: solid;
+  border-width:10px;
+  background-color: fuchsia;
+}
+a{
+  color:white;
+}
